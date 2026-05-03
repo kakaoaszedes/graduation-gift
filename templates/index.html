@@ -172,5 +172,12 @@ enterBtn.addEventListener("click", () => {
 });
 </script>
 
+<script>
+document.querySelectorAll("video").forEach(video => {
+    video.muted = true;
+    video.play().catch(() => {});
+});
+</script>
+
 </body>
 </html>
