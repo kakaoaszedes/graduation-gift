@@ -179,5 +179,14 @@ document.querySelectorAll("video").forEach(video => {
 });
 </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("video").forEach(video => {
+        video.muted = true;
+        video.setAttribute("playsinline", "");
+        video.play().catch(() => {});
+    });
+});
+</script>
 </body>
 </html>
