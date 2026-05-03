@@ -241,3 +241,88 @@ body{
         transform: translateY(-120vh) translateX(-20px) rotate(360deg);
     }
 }
+
+/* ===== MOBILE FINAL FIX ===== */
+@media (max-width: 768px){
+
+    /* HERO */
+    .hero{
+        min-height: 100vh;
+        padding: 40px 15px;
+
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .hero h1{
+        font-size: 34px;
+        line-height: 1.3;
+    }
+
+    /* OPEN LETTER */
+    .open-letter{
+        padding: 60px 20px;
+    }
+
+    .open-letter h2{
+        font-size: 30px;
+    }
+
+    .open-text{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    /* MESSAGE */
+    .message-section{
+        padding: 70px 20px;
+    }
+
+    .message-content h2{
+        font-size: 28px;
+    }
+
+    .message-content p{
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    /* MEMORY GRID */
+    .memory-grid{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .memory,
+    .memory-big{
+        height: auto;
+        min-height: 220px;
+    }
+
+    /* TEXT DI MEMORY */
+    .memory p{
+        font-size: 13px;
+        padding: 6px 10px;
+        border-radius: 12px;
+    }
+
+    /* FINAL LETTER */
+    .letter-box{
+        padding: 40px 20px;
+    }
+
+    .letter-box h2{
+        font-size: 28px;
+    }
+
+    .letter-text{
+        font-size: 15px;
+    }
+
+    /* BUTTON */
+    .btn{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
